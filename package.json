@@ -1,0 +1,19 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "blockchain with typescript",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npx tsc",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0"
+  }
+}
